@@ -1226,8 +1226,8 @@ private void sortAvailableBooks() {
     }
 
     Book newBook = new Book(title, author, category, true);
-    books.add(newBook); // Add the new book to the public books list
-    //availableBooks.add(newBook); // Add the new book to the available books list
+    books.add(newBook); 
+    availableBooks.add(newBook); 
 
    
 
